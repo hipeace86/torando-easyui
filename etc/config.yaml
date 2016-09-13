@@ -1,0 +1,2 @@
+engines:
+  {'right':"mysql://root:111222@127.0.0.1/test?charset=utf8",'oa':"mysql://root:111222@127.0.0.1/crm?charset=utf8",'base':"mysql://root:111222@127.0.01/crm?charset=utf8",'slave2':"mysql://root:111222@127.0.0.1/crm?charset=utf8"}

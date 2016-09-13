@@ -1,0 +1,6 @@
+tornado
+lxml
+redis
+SQLAlchemy
+PyYAML
+MySQL-python

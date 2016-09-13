@@ -1,0 +1,296 @@
+*{
+    font-size:12px;
+}
+html,body{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family:Arial,Helvetica,"Nimbus Sans L",sans-serif;
+    background:#fafafa;
+    text-align:center;
+}
+h3{
+    font-size:20px;
+    font-weight:bold;
+    margin:12px 0;
+}
+h4{
+    font-size:16px;
+    font-weight:bold;
+    color:#CC0000;
+    margin:10px 0;
+}
+h5{
+    font-size:14px;
+    font-weight:bold;
+    color:#990000;
+    margin:5px 0;
+}
+#header{
+    text-align:center;
+    background:#666;
+    direction:ltr;
+}
+#header-inner{
+    text-align:left;
+    margin:0 auto;
+    width:960px;
+    padding:10px 0;
+}
+#mainwrap{
+    text-align:center;
+    margin-top:5px;
+}
+#content{
+    text-align:left;
+    width:960px;
+    margin:0 auto;
+    padding:10px;
+    border-radius:5px;
+    border:1px solid #ddd;
+    background:#fff;
+}
+#content img{
+    margin-left:9px;
+}
+#footer{
+    text-align:center;
+    padding:10px;
+}
+#topmenu{
+    text-align:right;
+}
+#topmenu a{
+    display:inline-block;
+    padding:1px 3px;
+    text-decoration:none;
+    color:#fff;
+}
+#topmenu a:hover{
+    text-decoration:underline;
+}
+
+a.download-link{
+    color:#0000ff;
+}
+
+.doc-table{
+    border-collapse:collapse;
+    border-spacing:0;
+    margin-left:9px;
+}
+.doc-table th,.doc-table td{
+    border:1px solid #8CACBB;
+    padding:0.3em 0.7em;
+}
+.doc-table th{
+    background:#eee;
+}
+.doc-table pre{
+    font-family:Verdana;
+    font-size:12px;
+    color:#006600;
+    background:#fafafa;
+    padding:5px;
+}
+
+.ftitle{
+	font-size:14px;
+    font-weight:bold;
+    padding:5px 0;
+    border-bottom:1px solid #ccc;
+}
+.detailcontent .ftitle{
+    font-size:24px;
+    font-weight:bold;
+    padding:5px 0;
+    border-bottom:1px solid #ccc;
+    padding-left:550px;
+}
+.fitem{
+    margin-bottom:5px;
+}
+.fitem label{
+    display:inline-block;
+    width:90px;
+    text-align: right;
+    padding-right: 2px;
+    font-size:12px;
+}
+form .fitem{
+	width:360px;
+	display:inline-block;
+}
+form .fitem input{height:15px;font-size:12px;width:120px;}
+.detailcontent{
+    padding-top:10px;
+}
+.detailcontent .fitem{
+    display:inline-table;
+    width:300px
+}
+.detailcontent .fitem input{height:15px;font-size:12px;width:120px;}
+.detailcontent .fitem label{
+	width:90px;
+	font-weight:bolder;
+}
+.tablecontent{
+
+}
+.tablecontent ul{
+    list-style-type: none;
+    padding-left: 12px;
+}
+.tablecontent ul li{
+    display: inline;
+    width: 145px;
+    float: left;
+}
+.tablecontent ul li input{
+    width:90px;height:15px;font-size:12px;
+}
+.tablecontent ul li label{
+    display: inline-block;
+}
+.tablecontent dt{
+    height: 30px;
+}
+.input6{
+    width:60px;
+    margin-left: 6px;
+}
+.input10{
+    width: 100px;
+    margin-left: 6px;
+}
+.input20{
+    width:200px;
+    margin-left: 6px;
+}
+.input30{
+    width:300px;
+    margin-left: 6px;
+}
+#thumbnails {
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+}
+#menufront div{
+	float:left;
+	padding:2px;
+}
+.assign ul{
+	width:150px;
+	float:left;
+}
+fieldset{
+    margin: 2px;
+    padding:1px 1px 5px 1px;
+    border:solid 1px #ccc;
+}
+
+fieldset ul{
+	margin:1px 0 4px 0;
+}
+fieldset ul li{
+	list-style:none;
+	float:left;
+}
+fieldset input{
+	width:100px;
+}
+fieldset .combo{
+	width:100px;
+}
+.hiddenField{
+	float:right;
+	padding-right:10px;
+}
+.workflowbuttons{
+	padding-left:500px;
+	padding-top:25px;
+}
+form{
+	padding-top:5px;
+}
+
+.reporttable{
+	border-collapse:collapse;
+	border:1px solid #999;
+}
+.reporttable th,.reporttable td{
+	border:solid #999;
+	border-width:0 1px 1px 0;
+	padding:2px;
+	text-align:center;
+}
+.listpanel{
+	width:240px;
+	float:left;
+}
+.drop{
+	display: inline-block; border: dotted 2px #7FAAFF; background-color: #C5D9FF; 
+	/*padding: 35px 60px 35px 60px;*/
+}
+.drop input{
+	display:none;
+}
+textarea{
+	width:228px;
+	height:80px;
+}
+.datagrid-header-row td{
+	font-weight:bolder;
+	vertical-align : center;
+	text-align:center;
+}
+.reportSetting{
+	margin:0px auto;
+	width:600px;
+	padding-top:100px;
+}
+.reportSetting div{
+	display:block;
+}
+.reportSetting .Button{
+	display:block;
+	padding:30px 0px 0px 190px;
+}
+.reportResult{
+	display:block;
+	margin:0px auto;
+	width:800px;
+}
+label {display:inline;font-size:12px;};
+.searchBox{margin: 2px;padding:1px 1px 5px 1px;border:solid 1px #ccc;}
+.searchBox label{display:inline;}
+.searchBox ul li{list-style:none;float:left;}
+.searchBox input{width:100px;height:15px;}
+.searchBox .combo{width:100px;}
+legend{display: inline-block;margin: 2px;font-size: 12px;line-height: 14px;}
+.message{display:inline-block}
+.datagrid-row-detail{
+	border:dotted 1px #ccc;
+}
+.datagrid-row-detail .fitem{
+	border-bottom:solid 1px;
+	display:inline-block;
+	width:355px;
+}
+.datagrid-row-detail .fitem label{
+	font-weight:bolder;
+	text-align:center;
+}
+input{height:15px;}
+.nomalselect{
+	width:120px;
+	height:24px;
+	border-radius:0px;
+	line-height:24px;
+	font-size:14px;
+	margin-bottom:0px;
+	padding:0px;
+}
+th{text-align:center}
